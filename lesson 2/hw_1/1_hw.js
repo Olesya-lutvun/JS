@@ -11,6 +11,10 @@ console.log(arr[6]);
 console.log(arr[7]);
 console.log(arr[8]);
 console.log(arr[9]);
+arr[ arr.length] = 'lesson';
+console.log(arr)
+
+
 
 
 
