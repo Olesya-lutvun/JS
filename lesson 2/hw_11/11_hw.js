@@ -1,7 +1,8 @@
 
-let x = 0;
-    if (!x){
- x = 'defaul'
+let = x;
+
+if (!x) {
+    x = 'default';
 }
 
-
+console.log(x);
