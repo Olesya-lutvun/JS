@@ -28,3 +28,12 @@ let users = [
 ];
 const result = users.myFilter ((user) => user.status);
 console.log(result);
+
+
+
+
+
+
+
+
+
