@@ -7,12 +7,8 @@ let coursesAndDurationArray = [
     {title: 'FullStack', monthDuration: 7},
     {title: 'Frontend', monthDuration: 4}
 ];
-let mapingArray = coursesAndDurationArray.map((course, index) => ({
-    id: index + 1,
-    title: course.title,
-    monthDuration: course.monthDuration
-}));
-
-console.log(mapingArray);
-
-
+for (const course of coursesAndDurationArray) {
+    const div = document.createElement('div');
+    div.textContent = `${course.title} ${course.monthDuration}`
+    document.body.appendChild(div);
+}
