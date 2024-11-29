@@ -1,0 +1,9 @@
+.target {
+    background-color: bisque;
+    text-align: start;
+    margin-left: 10px;
+    img{
+        width: 200px;
+
+    }
+}
